@@ -33,7 +33,7 @@ export default {
 
     display(key) {
         const vehicle = this.vehicles[key];
-        console.log(vehicle);
+
         const vehicleEl = $('<div class="col-md-6 col-lg-3 vehicle-list__single"></div>');
         const vehicleImage = $(`<img src="${vehicle.media[0].url}"/>`);
 
